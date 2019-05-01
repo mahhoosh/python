@@ -22,3 +22,13 @@ print(a, b, c, d )
 # Basic math
 z = a + b
 print(z, type(z))
+
+# Casting
+n = str(z)
+v = int(z)
+f = float(z)
+
+# check type
+print(type(n), n)
+print(type(v), v)
+print(type(f), f)
